@@ -1,0 +1,32 @@
+{
+	"geode": "4.0.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"version": "v1.0.0",
+	"id": "yourname.autodeco",
+	"name": "Auto Deco",
+	"developer": "yourname",
+	"description": "Select blocks in the editor, press Deco, and decoration gets placed along the exposed edges automatically.",
+	"settings": {
+		"deco-id": {
+			"type": "int",
+			"name": "Deco Object ID",
+			"description": "Object ID placed along edges (40 = half slab).",
+			"default": 40,
+			"min": 1,
+			"max": 4000
+		},
+		"chance": {
+			"type": "float",
+			"name": "Chance per Edge",
+			"description": "Probability (0-1) that an exposed edge gets decoration.",
+			"default": 0.6,
+			"min": 0,
+			"max": 1
+		}
+	}
+}
